@@ -29,6 +29,18 @@ The task is a **247-class classification problem** with a significant class imba
 
 ### 1. Data Loading and Exploration
 
+The dataset used in this project was provided as part of an academic Kaggle competition organized at École Centrale de Lyon.
+
+The original competition files are not included in this repository:
+
+```text
+train.csv
+test.csv
+sample_submission.csv
+```
+
+Redistribution permission for these files has not yet been confirmed. The repository therefore currently contains only the project code, documentation, and report.
+
 The raw files contain sessions with different numbers of actions. A line-by-line parsing strategy is used because the input format is irregular and produces a very large sparse representation when loaded directly as a conventional table.
 
 Exploratory analysis focuses on:
@@ -170,15 +182,20 @@ Overall, the results show that user identity is more strongly associated with **
 
 ## Repository Structure
 
+## Repository Structure
+
 ```text
 .
-├── Notebook_DS_English.ipynb   # Complete analysis and modeling workflow
-├── train.csv                   # Training data (if distributed)
-├── test.csv                    # Test data (if distributed)
-├── submission.csv              # Final predictions
-├── requirements.txt            # Python dependencies
-└── README.md
+├── README.md
+├── Notebook_DS_English.ipynb
+└── Copilot_User_Classifier_Report_FR.pdf
 ```
+
+- `README.md` — Project overview, methodology, results, and instructions.
+- `Notebook_DS_English.ipynb` — Complete analysis and machine-learning workflow, with the Markdown documentation translated into English.
+- `Copilot_User_Classifier_Report_FR.pdf` — Original project report written in French.
+
+> The original competition datasets (`train.csv`, `test.csv`, and `sample_submission.csv`) are not included in this repository because redistribution permission has not yet been confirmed.
 
 > Note: the original datasets may not be publicly distributable. If they are subject to academic or company restrictions, they should not be committed to the repository.
 
@@ -218,7 +235,7 @@ Launch Jupyter:
 jupyter notebook
 ```
 
-Then open `Notebook_DS_English.ipynb`.
+Then open `Notebook_English.ipynb`.
 
 ---
 
