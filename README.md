@@ -235,7 +235,7 @@ Launch Jupyter:
 jupyter notebook
 ```
 
-Then open `Notebook_DS_English.ipynb`.
+Then open `Notebook_English.ipynb`.
 
 ---
 
