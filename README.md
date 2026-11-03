@@ -182,13 +182,12 @@ Overall, the results show that user identity is more strongly associated with **
 
 ## Repository Structure
 
-## Repository Structure
-
 ```text
 .
 ├── README.md
 ├── Notebook_DS_English.ipynb
-└── Copilot_User_Classifier_Report_FR.pdf
+├── Copilot_User_Classifier_Report_FR.pdf
+└── requirements.txt
 ```
 
 - `README.md` — Project overview, methodology, results, and instructions.
